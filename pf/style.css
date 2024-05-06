@@ -1,0 +1,469 @@
+/* body全体 */
+@media(min-width: 481px) {
+  
+  body {
+    min-width: 1080px;
+    margin: 10px  auto 10px auto;
+    white-space: nowrap;
+    font-family: "HG丸ゴシックM-PRO" , sans-serif;
+  } 
+  
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    margin: 0 0 60px 0;
+    color: #ff9900;
+    letter-spacing: 5px;
+  }
+
+  .ab {
+    text-align: center;
+  }
+
+  .ab h1 {
+    padding: 2px 0;
+  }
+
+  .uline {
+    padding-bottom: 8px;
+    border-bottom: 2px solid #565656;
+    display: inline-block;
+  }
+
+  /* ナビゲーションメニュー */
+  /* ロゴ */
+  
+  /* sp用　ナビ　非表示 */
+  #nav-sp {
+    display: none;
+  }
+  
+  #logo > a > img {
+    width: 60px;
+    height: 60px;
+    position: absolute;
+    left: 50px;
+    bottom: 5px;
+  }
+  
+  #nav {
+ display: flex;
+ justify-content: flex-end;
+ position: relative;
+ margin-top: 50px;
+ margin-right: 100px;
+  }
+  
+  #nav a {
+    padding: 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #ff9900;
+   }
+  
+  
+  /* メイン画像  */
+  /* sp用　メイン画像　非表示 */
+  .main-photo-sp{
+    display: none;
+  }
+  
+  .main-photo {
+    margin: 100px 0 150px 0;
+    width: 100%;
+    text-align: center;
+  }
+  
+  
+  /* 一期一会 */
+.itigo {
+  margin-top: 150px;
+  margin-left: 20px;
+  font-size: 30px;
+  text-align: center;
+  color: #565656;
+  letter-spacing: 5px;
+}
+
+ .blend {
+    display: flex;
+    position: absolute;
+    top: 20px;
+  }
+  
+  .shape1 {
+    background: #ffccff;
+    border-radius: 50% 40% 30% 30% / 30% 40% 50% 60%;
+    box-sizing: border-box;
+    mix-blend-mode: multiply;
+    padding: 35px 50px 20px 0;
+    left: 50px;
+    position: relative;
+    width: 365px;
+    height: 320px;
+    text-align: right;
+    font-size: 55px;
+    letter-spacing: 35px;
+    font-weight: bold;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: white
+  }
+
+  
+.shape2 {
+    background: #ff9;
+    border-radius: 50% 30% 50% 40% / 30% 50% 40% 30%;
+    box-sizing: border-box;
+    mix-blend-mode: multiply;
+    padding: 35px 20px;
+    width: 350px;
+    height: 320px;
+    font-style: italic;
+    text-align: left;
+    letter-spacing: 40px;
+    font-size: 55px;
+    font-weight: bold;
+    -webkit-text-stroke-width: 3px;
+    -webkit-text-stroke-color: white
+  }
+  
+  /* About */
+  /* sp用　自己紹介文　非表示 */
+  .itigo-sp {
+    display: none;
+  }
+
+  .my-sp {
+    display: none;
+  }
+
+  .itie {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    position: relative;
+  }
+  
+ 
+  
+  /* 顔写真 */
+  /* sp用　顔写真　非表示 */
+ .img-my {
+  display: none;
+ }
+
+ .myface {
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+ }
+
+ .face > .image > img {
+  margin-right: 20px;
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+ }
+
+ .image > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: 100%;
+  object-fit: cover;
+}
+
+.my {
+  align-self: center;
+}
+
+  /* Contact*/
+  /* sp用　非表示 */
+  #contact-sp {
+    display: none;
+  }
+
+  
+  .ct {
+    text-align: center;
+  }
+
+  .ct h1 {
+    padding: 2px 0;
+  }
+
+  .con {
+    margin-top: 100px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #565656;
+    display: inline-block;
+  }
+
+ 
+  #contact {
+    margin: 80px auto 80px auto;
+  }
+
+  .contact-label {
+    font-weight: bold;
+    margin-left: 70px;
+  }
+
+  form {
+    font-size: 18px;
+    width: fit-content;
+    margin: auto;
+  }
+  
+  #contact > form > div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 10px;
+  }
+
+  .contact-heading {
+    width: 300px;
+    align-self: center;
+  }
+
+  .btn1 {
+    margin: 20px auto 20px auto;
+  }
+  
+  .ms {
+    text-align: center;
+  }
+
+  .contact-textbox {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-width: 1px;
+    border-bottom-color: #707070;
+    border-bottom-style: solid;
+    background-color: #fafafa;
+    width: 400px;
+    height: 50px;
+  }
+
+  .contact-textarea {
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    border-bottom-width: 1px;
+    border-bottom-color: #707070;
+    border-bottom-style: solid;
+    background-color: #fafafa;
+    width: 400px;
+    height: 100px;
+  }
+  
+  .sns-btn {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+
+.sns-btn li {
+  margin-right: 20px;
+}
+/* お問い合わせ */
+h2 {
+  color: #565656;
+  text-align: center;
+  margin: 0 0 40px 0;
+}
+
+#contact {
+  margin: 80px auto 20px auto;
+}
+
+#contact > form > div {
+  display: flex;
+}
+
+
+
+/* footer */
+/* sp用　非表示 */
+.footer-sp {
+  display: none;
+}
+
+.footer {
+  margin-top: 20px;
+  font-size: 10px;
+  text-align: center;
+}
+}
+
+/* 　-------
+sp用　------- */
+
+@media (max-width: 480px) {
+  body {
+    margin: 10px auto 10px auto;
+  }
+
+  h1 {
+    margin-top: 0;
+    margin-bottom: 30px;
+    font-size: 20px;
+    text-align: center;
+    color: #ff9900;
+  }
+
+ /* pc用　ナビ　非表示 */
+ #nav {
+  display: none;
+ }
+
+ #logo > a > img {
+  display: none;
+ }
+
+/* ナビゲーション */
+#nav-sp {
+  display: flex;
+  margin-left: 10px;
+}
+
+#logo-sp > a {
+  color: #ff9900;
+  text-decoration: none;
+  font-size: 10px;
+  padding: 10px;
+}
+
+#logo-sp > a > img {
+  width: 30px;
+}
+
+/* メイン画像 */
+/* pc用　メイン画像　非表示 */
+.main-photo {
+  display: none;
+}
+
+.main-photo-sp {
+  display: flex;
+}
+
+.main-photo-sp > a > img {
+  width: 100%;
+  margin: 50px 0;
+}
+
+/* About */
+/* PC用　顔写真　非表示 */
+.image {
+  display: none;
+}
+
+
+/* 顔写真 */
+.img-my {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.image-sp {
+  background-image: url(img/photo.jpg);
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-size: cover;
+ }
+
+
+/* pc用　自己紹介文　非表示 */
+.pr {
+  display: none;
+}
+.itigo {
+  display: none;
+}
+
+.sp {
+  position: relative;
+  margin: 0 10px;
+}
+
+.pr > li {
+  display: none;
+}
+
+.pr-sp > li {
+  font-size: 10px;
+  list-style: none;
+}
+
+.pr-sp {
+  margin-top: 20px;
+}
+
+/* 一期一会 */
+/* PC用　　一期一会　非表示 */
+ .blend {
+  display: none;
+ }
+
+ .blend-sp {
+  display: flex;
+  padding: 0 0 0 0;
+  margin: 88px 0 0 60px;
+}
+
+/* contact */
+/* pc用　非表示 */
+.sns-btn {
+  display: none;
+}
+
+#contact {
+  display: none;
+}
+
+#contact-sp > h1 {
+  margin-top: 50px;
+}
+
+#contact-sp > p {
+  text-align: center;
+  font-size: 10px;
+}
+
+.sns-btn-sp {
+  padding: 0 0 0 0;
+  display: flex;
+  list-style: none;
+  justify-content: center;
+}
+
+.sns-btn-sp > li > a > img {
+  padding: 0 5px;
+  width: 15px;
+}
+
+/* フッター */
+/* pc用　非表示 */
+.footer {
+  display: none;
+}
+
+.footer-sp {
+  font-size: 6px;
+  text-align: center;
+}
+}
+
+
+
+
+
