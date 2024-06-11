@@ -1,308 +1,325 @@
 /* body全体 */
+
 @media(min-width: 481px) {
   
-  body {
-    min-width: 1080px;
-    margin: 10px  auto 10px auto;
-    white-space: nowrap;
-    font-family: "HG丸ゴシックM-PRO" , sans-serif;
-  } 
-  
-  h1 {
-    text-align: center;
-    font-size: 36px;
-    margin: 0 0 60px 0;
-    color: #ff9900;
-    letter-spacing: 5px;
-  }
+body   {
+        font-family: "新レトロ丸ゴシック" , sans-serif;
+        text-align: center;
+        white-space: nowrap;
+       }
 
-  .ab {
-    text-align: center;
-  }
 
-  .ab h1 {
-    padding: 2px 0;
-  }
+/* ナビゲーションメニュー と ロゴ */
 
-  .uline {
-    padding-bottom: 8px;
-    border-bottom: 2px solid #565656;
-    display: inline-block;
-  }
-
-  /* ナビゲーションメニュー */
-  /* ロゴ */
-  
   /* sp用　ナビ　非表示 */
   #nav-sp {
-    display: none;
-  }
+           display: none;
+          }
+
+#nav-img  {
+           position: relative;
+          }
   
-  #logo > a > img {
-    width: 60px;
-    height: 60px;
-    position: absolute;
-    left: 50px;
-    bottom: 5px;
-  }
+li        {
+           list-style: none;
+          }
   
-  #nav {
- display: flex;
- justify-content: flex-end;
- position: relative;
- margin-top: 50px;
- margin-right: 100px;
-  }
-  
-  #nav a {
-    padding: 10px;
-    text-decoration: none;
-    font-size: 18px;
-    color: #ff9900;
-   }
-  
-  
-  /* メイン画像  */
+.shape01  {
+           background: #ccffcc;
+           border-radius: 20% 40% 30% 30% / 30% 40% 50% 60%;
+           mix-blend-mode: multiply;
+           padding: 10px 0;
+           position: absolute;
+           top: -27px;
+           right: -35px;
+           width: 400px;
+          }
+
+#logo > a > img {
+           width: 60px;
+           height: 60px;
+           position: absolute;
+           left: 50px;
+           bottom: 5px;
+          }
+
+#nav      {
+           display: flex;
+           justify-content: flex-end;
+           position: relative;
+           margin-top: 50px;
+           margin-right: 100px;
+          }
+
+#nav a    {
+           font-family: '新レトロ丸ゴシック' , sans-serif;
+           padding: 10px 20px;
+           text-decoration: none;
+           font-size: 18px;
+           color: black;
+           font-weight: bold;
+          }
+
+
+/* メイン画像  */
   /* sp用　メイン画像　非表示 */
-  .main-photo-sp{
-    display: none;
-  }
-  
-  .main-photo {
-    margin: 100px 0 150px 0;
-    width: 100%;
-    text-align: center;
-  }
-  
-  
-  /* 一期一会 */
-.itigo {
-  margin-top: 150px;
-  margin-left: 20px;
-  font-size: 30px;
-  text-align: center;
-  color: #565656;
-  letter-spacing: 5px;
-}
+  .main-photo-sp {
+             display: none;
+            }
+            
+.main-photo {
+             margin: 100px 0 150px 0;
+             width: 100%;
+             text-align: center;
+            }
+              
+            
+/*キャッチコピー */
+            
+.catch-copy {
+             display: flex;
+            }
 
- .blend {
-    display: flex;
-    position: absolute;
-    top: 20px;
-  }
-  
-  .shape1 {
-    background: #ffccff;
-    border-radius: 50% 40% 30% 30% / 30% 40% 50% 60%;
-    box-sizing: border-box;
-    mix-blend-mode: multiply;
-    padding: 35px 50px 20px 0;
-    left: 50px;
-    position: relative;
-    width: 365px;
-    height: 320px;
-    text-align: right;
-    font-size: 55px;
-    letter-spacing: 35px;
-    font-weight: bold;
-    -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: white
-  }
+#blend > .shape3 > p {
+             font-size: 30px;
+            }
 
+.shape3 > p > span {
+             font-size: 50px;
+            }
   
-.shape2 {
-    background: #ff9;
-    border-radius: 50% 30% 50% 40% / 30% 50% 40% 30%;
-    box-sizing: border-box;
-    mix-blend-mode: multiply;
-    padding: 35px 20px;
-    width: 350px;
-    height: 320px;
-    font-style: italic;
-    text-align: left;
-    letter-spacing: 40px;
-    font-size: 55px;
-    font-weight: bold;
-    -webkit-text-stroke-width: 3px;
-    -webkit-text-stroke-color: white
-  }
-  
-  /* About */
-  /* sp用　自己紹介文　非表示 */
-  .itigo-sp {
-    display: none;
-  }
+li          {
+             list-style: none;
+            }
+    
+.blend      {
+             position: relative;
+            }
+      
+.shape1     {
+             background: #c2eeff;
+             border-radius: 50% 40% 30% 30% / 30% 40% 50% 60%;
+             box-sizing: border-box;
+             mix-blend-mode: multiply;
+             padding: 35px 50px 20px 0;
+             position: absolute;
+             left: 748px;
+             width: 450px;
+             height: 350px;
+            }
+        
+.shape2    {
+            background-color: #ff9;
+            border-radius: 50% 40% 30% 30% / 30% 40% 50% 60%;
+            box-sizing: border-box;
+            mix-blend-mode: multiply;
+            padding: 35px 50px 20px 0;
+            position: absolute;
+            left: 500px;
+            width: 450px;
+            height: 350px;
+           } 
 
-  .my-sp {
-    display: none;
-  }
+.shape3    {
+            position: absolute;
+            left: 258px;
+            background: #ffccff;
+            border-radius:50% 40% 30% 30% / 30% 40% 50% 60%; 
+            box-sizing: border-box;
+            mix-blend-mode: multiply;
+            padding: 35px 20px;
+            width: 490px;
+            height: 350px;
+            letter-spacing: 45px;
+            line-height: 90px;
+           }
+           
+.shape3 > p {
+            position: absolute;
+            left: 110px;
+            top: 50px;
+           }
+             
+/* About */
+ /* sp用　自己紹介文　非表示 */
+ .pr-sp {
+         display: none;
+        }  
 
-  .itie {
-    display: flex;
-    justify-content: center;
-    margin-top: 80px;
-    position: relative;
-  }
-  
- 
-  
-  /* 顔写真 */
+.about01   {
+            font-family: '晩秋レトロミン' , sans-serif;
+            font-size: 35px;
+            color: #3c0;
+            margin-bottom: 60px;
+           }
+
+.about > #about {
+            margin: 500px auto 0 auto;
+           }
+
+              
+/* 顔写真 */
   /* sp用　顔写真　非表示 */
- .img-my {
-  display: none;
- }
+  .img-mypr {
+             display: none;
+            }
 
- .myface {
-  font-size: 20px;
-  display: flex;
-  justify-content: center;
- }
+.myface     {
+             font-size: 20px;
+             display: flex;
+             justify-content: center;
+            }
 
- .face > .image > img {
-  margin-right: 20px;
-  width: 200px;
-  height: 200px;
-  border-radius: 50%;
-  position: relative;
-  overflow: hidden;
- }
+.pr         {
+             text-align: left;         
+            }
 
- .image > img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: auto;
-  height: 100%;
-  object-fit: cover;
-}
+.face > .image > img {
+             margin-right: 20px;
+             width: 200px;
+             height: 200px;
+             border-radius: 50%;
+             position: relative;
+             overflow: hidden;
+            } 
 
-.my {
-  align-self: center;
-}
+.image > img {
+             position: absolute;
+             top: 0;
+             left: 0;
+             width: auto;
+             height: 100%;
+             object-fit: cover;
+            }
 
-  /* Contact*/
+
+/* Contact*/
   /* sp用　非表示 */
-  #contact-sp {
-    display: none;
-  }
+  #contact-sp  {
+                display: none;
+               }
 
+.con01           {
+                  font-family: '晩秋レトロミン' , sans-serif;
+                  font-size: 35px;
+                  color: #39f;
+                  margin: 150px 0 60px 0;
+                 }     
+          
+.contact-label   {
+                  font-weight: bold;
+                  color: #565656;
+                 }
+
+form             {
+                  font-size: 18px;
+                  width: fit-content;
+                  margin: auto;
+                 }
   
-  .ct {
-    text-align: center;
-  }
-
-  .ct h1 {
-    padding: 2px 0;
-  }
-
-  .con {
-    margin-top: 100px;
-    padding-bottom: 8px;
-    border-bottom: 2px solid #565656;
-    display: inline-block;
-  }
-
- 
-  #contact {
-    margin: 80px auto 80px auto;
-  }
-
-  .contact-label {
-    font-weight: bold;
-    margin-left: 70px;
-  }
-
-  form {
-    font-size: 18px;
-    width: fit-content;
-    margin: auto;
-  }
-  
-  #contact > form > div {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    padding: 10px;
-  }
-
-  .contact-heading {
-    width: 300px;
-    align-self: center;
-  }
-
-  .btn1 {
-    margin: 20px auto 20px auto;
-  }
-  
-  .ms {
-    text-align: center;
-  }
-
-  .contact-textbox {
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    border-bottom-width: 1px;
-    border-bottom-color: #707070;
-    border-bottom-style: solid;
-    background-color: #fafafa;
-    width: 400px;
-    height: 50px;
-  }
-
-  .contact-textarea {
-    border-top: 0;
-    border-left: 0;
-    border-right: 0;
-    border-bottom-width: 1px;
-    border-bottom-color: #707070;
-    border-bottom-style: solid;
-    background-color: #fafafa;
-    width: 400px;
-    height: 100px;
-  }
-  
-  .sns-btn {
-  display: flex;
-  justify-content: center;
-  list-style: none;
-}
-
-.sns-btn li {
-  margin-right: 20px;
-}
-/* お問い合わせ */
-h2 {
-  color: #565656;
-  text-align: center;
-  margin: 0 0 40px 0;
-}
-
-#contact {
-  margin: 80px auto 20px auto;
-}
-
 #contact > form > div {
-  display: flex;
-}
+                  display: flex;
+                  flex-direction: row;
+                  flex-wrap: wrap;
+                  padding: 23px;
+                 }
+
+.contact-heading {
+                  width: 300px;
+                  align-self: center;
+                 } 
+
+.contact-textbox {
+                  border-top: 0;
+                  border-left: 0;
+                  border-right: 0;
+                  border-bottom-width: 3px;
+                  border-bottom-color: #c2eeff;
+                  border-bottom-style: solid;
+                  background-color: #ffddff;
+                  width: 310px;
+                  height: 45px;
+                 }
+
+.contact-textarea {
+                   border-top: 0;
+                   border-left: 0;
+                   border-right: 0;
+                   border-bottom-width: 3px;
+                   border-bottom-color: #c2eeff;
+                   border-bottom-style: solid;
+                   background-color: #ffddff;
+                   width: 310px;
+                   height: 100px;
+                  }
+  
+.sns-btn         {
+                  display: flex;
+                  justify-content: center;
+                  list-style: none;
+                 }
+
+.sns-btn li      {
+                  margin-right: 20px;
+                 }
+
+h2               {
+                   color: #565656;
+                   text-align: center;
+                   margin: 0 0 40px 0;
+                 }
+
+#contact         {
+                   margin: 80px auto 20px auto;
+                 }
+                 
+#contact > form > div {
+                   display: flex;
+                 }
 
 
+/* 送信ボタン */
+
+#send-btn > button { 
+                  margin: 0 auto 0 auto;
+                 }
+
+.send            {
+                  padding: 10px 20px;
+                  border-radius: 10px;
+                  border : 2px solid #c2eeff;
+                  background-color: #ffddff;
+                 }
+
+.send:disabled   {
+                  background-color: #999;
+                 }
+
+
+/* お問い合わせ */
+.ms              {
+                  text-align: center;
+                  margin-top: 80px;
+                 }
 
 /* footer */
-/* sp用　非表示 */
-.footer-sp {
-  display: none;
+ /* sp用　非表示 */
+ .footer-sp      {
+                  display: none;
+                 }
+
+.footer          {
+                  margin-top: 20px;
+                  font-size: 10px;
+                  text-align: center;
+                 }
 }
 
-.footer {
-  margin-top: 20px;
-  font-size: 10px;
-  text-align: center;
-}
-}
 
-/* 　-------
-sp用　------- */
+
+/*-------------------
+------ スマホ用　-------
+------------------- */
 
 @media (max-width: 480px) {
   body {
@@ -330,10 +347,11 @@ sp用　------- */
 #nav-sp {
   display: flex;
   margin-left: 10px;
+  font-weight: bold;
 }
 
 #logo-sp > a {
-  color: #ff9900;
+  color: black;
   text-decoration: none;
   font-size: 10px;
   padding: 10px;
@@ -410,7 +428,7 @@ sp用　------- */
 
 /* 一期一会 */
 /* PC用　　一期一会　非表示 */
- .blend {
+ #blend {
   display: none;
  }
 
@@ -427,6 +445,10 @@ sp用　------- */
 }
 
 #contact {
+  display: none;
+}
+
+.ms {
   display: none;
 }
 
