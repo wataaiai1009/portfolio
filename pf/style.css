@@ -3,7 +3,7 @@
 @media(min-width: 481px) {
   
 body   {
-        font-family: "新レトロ丸ゴシック" , sans-serif;
+        font-family: "新レトロ丸ゴシック" , 'HG丸ゴシックM-PRO' , sans-serif ;
         text-align: center;
         white-space: nowrap;
        }
@@ -52,7 +52,7 @@ li        {
           }
 
 #nav a    {
-           font-family: '新レトロ丸ゴシック' , sans-serif;
+           font-family: '新レトロ丸ゴシック' , 'HG丸ゴシックM-PRO' , sans-serif;
            padding: 10px 20px;
            text-decoration: none;
            font-size: 18px;
@@ -142,12 +142,16 @@ li          {
              
 /* About */
  /* sp用　自己紹介文　非表示 */
- .pr-sp {
-         display: none;
-        }  
+ .pr-sp    {
+            display: none;
+           }
+
+ .about-sp {
+            display: none;
+           }
 
 .about01   {
-            font-family: '晩秋レトロミン' , sans-serif;
+            font-family: '晩秋レトロミン' , 'HG丸ゴシックM-PRO' , sans-serif;
             font-size: 35px;
             color: #3c0;
             margin-bottom: 60px;
@@ -160,7 +164,7 @@ li          {
               
 /* 顔写真 */
   /* sp用　顔写真　非表示 */
-  .img-mypr {
+  .face-sp  {
              display: none;
             }
 
@@ -195,12 +199,20 @@ li          {
 
 /* Contact*/
   /* sp用　非表示 */
-  #contact-sp  {
-                display: none;
-               }
+ .ct             {
+                  display: none;
+                 }
+
+  #contact-sp    {
+                  display: none;
+                 }
+
+  .con02         {
+                  display: none;
+                 }
 
 .con01           {
-                  font-family: '晩秋レトロミン' , sans-serif;
+                  font-family: '晩秋レトロミン' , 'HG丸ゴシックM-PRO' , sans-serif;
                   font-size: 35px;
                   color: #39f;
                   margin: 150px 0 60px 0;
@@ -279,7 +291,6 @@ h2               {
 
 
 /* 送信ボタン */
-
 #send-btn > button { 
                   margin: 0 auto 0 auto;
                  }
@@ -302,6 +313,7 @@ h2               {
                   margin-top: 80px;
                  }
 
+
 /* footer */
  /* sp用　非表示 */
  .footer-sp      {
@@ -321,168 +333,157 @@ h2               {
 ------ スマホ用　-------
 ------------------- */
 
+/* body全体 */
 @media (max-width: 480px) {
-  body {
-    margin: 10px auto 10px auto;
-  }
 
-  h1 {
-    margin-top: 0;
-    margin-bottom: 30px;
-    font-size: 20px;
-    text-align: center;
-    color: #ff9900;
-  }
-
- /* pc用　ナビ　非表示 */
- #nav {
-  display: none;
- }
-
- #logo > a > img {
-  display: none;
- }
+body             {
+                  font-family: "新レトロ丸ゴシック" , 'HG丸ゴシックM-PRO' , sans-serif ;
+                  margin: 10px auto 10px auto;
+                 }
+                 
+                 
+/* PC用　ナビ　非表示 */
+#nav             {
+                  display: none;
+                 }
 
 /* ナビゲーション */
-#nav-sp {
-  display: flex;
-  margin-left: 10px;
-  font-weight: bold;
-}
+#nav-sp          {
+                  display: flex;
+                  margin-left: 10px;
+                  font-weight: bold;
+                 }
 
-#logo-sp > a {
-  color: black;
-  text-decoration: none;
-  font-size: 10px;
-  padding: 10px;
-}
+#logo-sp > a     {
+                  color: black;
+                  text-decoration: none;
+                  font-size: 10px;
+                  padding: 10px;
+                 }
 
 #logo-sp > a > img {
-  width: 30px;
-}
+                  width: 30px;
+                 }
+
 
 /* メイン画像 */
 /* pc用　メイン画像　非表示 */
-.main-photo {
-  display: none;
-}
-
-.main-photo-sp {
-  display: flex;
-}
+.main-photo      {
+                  display: none;
+                 } 
 
 .main-photo-sp > a > img {
-  width: 100%;
-  margin: 50px 0;
-}
+                  width: 100%;
+                  margin: 50px 0 30px 0;
+                 } 
+
 
 /* About */
-/* PC用　顔写真　非表示 */
-.image {
-  display: none;
-}
-
+ /* PC用　顔写真　非表示 */
+ .image > img        {
+                  display: none;
+                 }
+    
+.about-sp        {
+                  margin: 20px;
+                  text-align: center;
+                  font-size: 20px;
+                  color: #3c0;
+                 }      
 
 /* 顔写真 */
-.img-my {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 0 auto;
-}
-
-.image-sp {
-  background-image: url(img/photo.jpg);
-  width: 100px;
-  height: 100px;
-  border-radius: 50%;
-  background-size: cover;
- }
+.face-sp         {
+                  margin: 30px auto;
+                  background-image: url(img/photo.jpg);
+                  width: 80px;
+                  height: 80px;
+                  border-radius: 50%;
+                  background-size: cover;
+                 }
 
 
-/* pc用　自己紹介文　非表示 */
-.pr {
-  display: none;
-}
-.itigo {
-  display: none;
-}
+ /* PC用　自己紹介文　非表示 */
+ .pr             {
+                  display: none;
+                 }
 
-.sp {
-  position: relative;
-  margin: 0 10px;
-}
+.about01         {
+                  display: none;
+                 }
 
-.pr > li {
-  display: none;
-}
+.pr-sp > li      {
+                  font-size: 13px;
+                  list-style: none;
+                 }
 
-.pr-sp > li {
-  font-size: 10px;
-  list-style: none;
-}
+.pr-sp           {
+                  margin: 20px;
+                  padding: 0;
+                  text-align: left;
+                  line-height: 15px;
+                 }
 
-.pr-sp {
-  margin-top: 20px;
-}
 
-/* 一期一会 */
-/* PC用　　一期一会　非表示 */
- #blend {
-  display: none;
- }
+/*キャッチコピー */
+/* PC用　キャッチコピー　非表示 */
+ #blend          {
+                  display: none;
+                 }
 
- .blend-sp {
-  display: flex;
-  padding: 0 0 0 0;
-  margin: 88px 0 0 60px;
-}
 
 /* contact */
-/* pc用　非表示 */
-.sns-btn {
-  display: none;
-}
+ /* pc用　非表示 */
+ h2              {
+                  display: none;
+                 }
 
-#contact {
-  display: none;
-}
+ .con01          {
+                  display: none;
+                 }
 
-.ms {
-  display: none;
-}
+ .ms             {
+                  display: none;
+                 }
 
-#contact-sp > h1 {
-  margin-top: 50px;
-}
+ #contact        {
+                  display: none;
+                 }
 
-#contact-sp > p {
-  text-align: center;
-  font-size: 10px;
-}
+.ct              {
+                  margin: 50px 0 30px 0;
+                  text-align: center;
+                  font-size: 20px;
+                  color: #39f;
+                 }
 
-.sns-btn-sp {
-  padding: 0 0 0 0;
-  display: flex;
-  list-style: none;
-  justify-content: center;
-}
+#contact-sp > p  {
+                  text-align: center;
+                  font-size: 10px;
+                 }
+
+.sns-btn-sp      {
+                  padding: 0 0 0 0;
+                  display: flex;
+                  list-style: none;
+                  justify-content: center;
+                 }
 
 .sns-btn-sp > li > a > img {
-  padding: 0 5px;
-  width: 15px;
-}
+                  padding: 0 5px;
+                  width: 15px;
+                 }
+                 
 
 /* フッター */
-/* pc用　非表示 */
-.footer {
-  display: none;
-}
+ /* pc用　非表示 */
+ .footer         {
+                  display: none;
+                 }
 
-.footer-sp {
-  font-size: 6px;
-  text-align: center;
-}
+.footer-sp       {
+                  font-size: 6px;
+                  text-align: center;
+                 }
 }
 
 
