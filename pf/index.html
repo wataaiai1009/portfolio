@@ -36,25 +36,38 @@
       </nav> 
   </header>
 
-<main>
+<main> 
   <article>
-<!-- メイン画像 PC用 --> 
+<!-- メイン画像 PC用 -->
+ <div id="panda"><img src="img/panda.jpg" alt="パンダ"></div> 
+ <div id="back01"></div>
+
     <div class="main-photo">
-      <a class="photo01"  href="index.html"><img src="img/pl.jpg.jpg" alt="メイン画像"></a>
+      <div class="photo01">
+         <a href="index.html"><img src="img/main.jpg" width="400px" height="300px" alt="メイン画像"></a>
+      </div>
+
+      <div class="mp">
+        <p>Aiko Watanabe’s <br>
+          Portfolio
+        </p>
+      </div>
     </div>
     
      <!-- メイン画像 スマホ用 -->
      <div class="main-photo-sp">
-       <a class="photo01-sp"  href="index.html"><img src="img/pl.jpg.jpg" alt="メイン画像"></a>
+       <a class="photo01-sp"  href="index.html"><img src="img/main.jpg" alt="メイン画像"></a>
      </div>
   
 <!-- キャッチコピー -->
     <div class="catch-copy">
-      <ul id="blend">
-        <li class="shape1"></li>
-        <li class="shape2"></li>
-        <li class="shape3"><p>この<span>出会い</span>を<span>大切</span>に、<br>その<span>想い</span>を<span>カタチ</span>に。</p><br></li>
-      </ul>
+      <div>
+        <img src="img/catch-copy.jpg" alt="catch-copy"> 
+      </div>
+
+      <div>
+        <p class="cc">この<span>出会い</span>を<span>大切</span>に、<br>その<span>想い</span>を<span>カタチ</span>に。</p>
+      </div>
     </div>
 
 <!-- About PC用-->
@@ -72,7 +85,7 @@
              <ul class="pr">
                <li>2人のパワフルな女の子とトイプー1匹を育てています。</li><br>
                <li>ガーデニングが趣味で、庭でたくさんのお花も育てています。</li><br>
-               <li>HTML、CSS、JavaScriptのスキルを身につけ、ホームページ作成に励んでいます。</li>
+               <li>HTML、CSS、JavaScript、PHPのスキルを身につけ、ホームページ作成に励んでいます。</li>
              </ul>
           </div>
     </div>
@@ -101,79 +114,85 @@
 <!-- Contact PC用 -->
 <section>
   <h1 class="con01">CONTACT</h1>
-  <div id="contact">
-    <div class="con">
-          <h2>お問い合わせ</h2>
-    </div>
 
- <form action="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"> 
-   <div>
-     <div class="contact-heading">
-        <label class="contact-label">お名前</label>
-     </div>
-
-     <div>
-        <input type="text" name="name" placeholder="（例）渡部 藍子" class="contact-textbox">
-     </div>
-   </div>
-              
-   <div>
-     <div class="contact-heading">
-        <label class="contact-label">フリガナ</label>
-     </div>
-
-     <div>
-        <input type="text" name="hurigana" placeholder="（例）ワタナベアイコ" class="contact-textbox">
-     </div>
-   </div>
-                    
-   <div>
-     <div class="contact-heading">
-        <label class="contact-label">電話番号</label>
-     </div>
-
-     <div>
-        <input type="text" name="tel" placeholder="（例）00000000000" class="contact-textbox">
-     </div>
-   </div>
-                          
-   <div>
-     <div class="contact-heading">
-        <label class="contact-label">メールアドレス</label>
-     </div>
-
-     <div>
-        <input type="text" name="mail" placeholder="（例）info@example.com" class="contact-textbox">
-     </div>
-   </div>
+  <div id="back-ground">
+    <div id="contact">
+      <div class="con">
+        <h2>おといあわせ</h2>
+      </div>
+      
+      <form method="post" action= "https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"> 
+        <div>
+          <div class="contact-heading">
+            <label class="contact-label">お名前</label>
+          </div>
           
-   <div>
-     <div class="contact-heading">
-        <label class="contact-label">お問い合わせ内容</label>
-     </div>
+          <div>
+            <input type="text" name="name" placeholder="（例）渡部 藍子" class="contact-textbox">
+          </div>
+        </div>
+    
+          <div>
+            <div class="contact-heading">
+              <label class="contact-label">フリガナ</label>
+            </div>
+      
+            <div>
+             <input type="text" name="hurigana" placeholder="（例）ワタナベアイコ" class="contact-textbox">
+            </div>
+          </div>
+    
+          <div>
+            <div class="contact-heading">
+              <label class="contact-label">電話番号</label>
+            </div>
+      
+            <div>
+              <input type="text" name="tel" placeholder="（例）00000000000" class="contact-textbox">
+            </div>
+          </div>
+    
+           <div>
+             <div class="contact-heading">
+               <label class="contact-label">メールアドレス</label>
+             </div>
+      
+             <div>
+               <input type="text" name="mail" placeholder="（例）info@example.com" class="contact-textbox">
+             </div>
+           </div>
+    
+             <div>
+               <div class="contact-heading">
+                 <label class="contact-label">お問い合わせ内容</label>
+               </div>
+      
+               <div>
+                 <textarea class="contact-textarea" placeholder="お問い合わせ内容をこちらにご記入ください。" name="message"></textarea>
+               </div>
+             </div> 
+    
+             <div>
+               <div class="contact-heading">
+                 <label class="contact-label">ご希望の連絡先</label>
+               </div>
+               
+               <div>
+                 <input type="radio" value="tel" name="contact" checked><label>お電話</label>
+                 <input type="radio" value="mail" name="contact"><label>メール</label>
+                 <input type="radio" value="both" name="contact"><label>どちらでも</label>
+                 <br>
+                </div>
+              </div>
+              
+              <div id="send-btn">
+                <button id="send" class="send">送信する</button>
+              </div>
 
-     <div>
-        <textarea class="contact-textarea" placeholder="お問い合わせ内容をこちらにご記入ください。" name="message"></textarea>
-     </div>
-   </div> 
-        
-   <div>
-     <div class="contact-heading">
-        <label class="contact-label">ご希望の連絡先</label>
-     </div>
-
-    <div>
-      <input type="radio" value="tel" name="contact" checked><label>お電話</label>
-      <input type="radio" value="mail" name="contact"><label>メール</label>
-      <input type="radio" value="both" name="contact"><label>どちらでも</label>
-      <br>
-    </div>
-   </div>
-  
-   <div id="send-btn">
-    <button id="send" class="send">送信する</button>
-   </div>
- </form> 
+            </div>
+          </div>
+        </div>     
+      </form> 
 </section>
       
 <div class="ms">お気軽にお問い合わせください。</p>
