@@ -3,9 +3,11 @@
 @media(min-width: 481px) {
   
 body   {
-        font-family: "Aoboshi One" , 'HG丸ゴシックM-PRO' , sans-serif ;
+        font-family: "Hachi Maru Pop" , 'HG丸ゴシックM-PRO' , sans-serif ;
         text-align: center;
         white-space: nowrap;
+        height: 100vh;
+        width: 100vw;
        }
 
 
@@ -52,7 +54,7 @@ li        {
           }
 
 #nav a    {
-           font-family: 'Cherry Bomb One' , 'HG丸ゴシックM-PRO' , sans-serif ;
+           font-family: 'Shizuru' , 'HG丸ゴシックM-PRO' , sans-serif ;
            padding: 10px 20px;
            text-decoration: none;
            font-size: 18px;
@@ -69,6 +71,7 @@ li        {
 
 #panda      {
              text-align: right;
+             margin-top: 100px;
              margin-right: 100px;
             }
 
@@ -82,55 +85,72 @@ li        {
             
 .main-photo {
              position: absolute;
-             margin: 0 auto 0 auto;
              top: 100px;
              display: flex;
-             margin: 150px auto 170px 110px;
+             margin: 230px auto 170px 140px;
              letter-spacing: 10px;
             }
 
-.mp > p      {
+.mp         {
              font-size: 80px;
              font-weight: bold;
              color: #ff66ff;
-             margin: 30px auto 20px 40px;
-             font-family: 'ShizUru', 'HG丸ゴシックM-PRO' , sans-serif ;
+             margin: 0 0 0 0;
+             padding: 60PX 0 0 60px;
+             animation: blink-fast .3s linear infinite;
+             font-family: 'Aoboshi One', 'HG丸ゴシックM-PRO' , sans-serif ;
             }
+
+@keyframes blink-fast {
+  0%        {
+             opacity: 0;
+            }
+
+  20%       {
+             opacity: 1;
+            }          
+  
+                      }
               
             
 /*キャッチコピー */
 
-.catch-copy > #blend {
-             margin: 0 auto 0 auto;
-             display: flex;
-             padding: 0;
-            }
-            
-.catch-copy {
-             /* display: flex; */
-             margin: 0 auto 0 auto;
+#catchCopy img  {
+              margin: 710px auto 90px auto;
+              width: 350px;
             }
 
-.cc         {
-             font-size: 30px;
-             letter-spacing: 35px;
-             line-height: 100px;
-             font-family: 'Dela Gothic One','HG丸ゴシックM-PRO' , sans-serif ;
-             margin: 0 auto 0 auto;
+.cc        {
+             font-size: 40px;
+             letter-spacing: 45px;
+             line-height: 110px;
+             font-family: "Monomaniac One",'HG丸ゴシックM-PRO' , sans-serif ;
+             position: absolute;
+             top: 150px;
+             left: 100px;
             }
 
-.cc > span {
+.cc > span  {
              font-size: 50px;
             }
   
 li          {
              list-style: none;
             }
-             
-.catch-copy  img {
-              margin: 100px auto 0 auto;
+
+.kaiwa      {
+             position: absolute;
+             top: 850px;
+             left: 300px;
             }
-           
+
+#kaiwa01    {
+             position: relative; 
+             margin: 80px 0 100px 0;
+             width: 900px;
+             height: 450px;
+            }
+
              
 /* About */
  /* sp用　自己紹介文　非表示 */
@@ -142,11 +162,8 @@ li          {
             display: none;
            }
 
-.about01   {
-            font-family: 'Rock 3D' , 'HG丸ゴシックM-PRO' , sans-serif;
-            font-size: 40px;
-            color: #ff66ff;
-            margin-bottom: 60px;
+.pr        {
+            font-family: 'M PLUS 1 Code','HG丸ゴシックM-PRO' , sans-serif ;
            }
 
 .about > #about {
@@ -213,10 +230,7 @@ li          {
                  }       
 
 .con01           {
-                  font-family: 'Rock 3D' , 'HG丸ゴシックM-PRO' , sans-serif;
-                  font-size: 40px;
-                  color: #33ff00;
-                  margin: 150px 0 60px 0;
+                  margin: 250px 0 60px 0;
                  }     
           
 .contact-label   {
@@ -271,6 +285,7 @@ form             {
                   display: flex;
                   justify-content: center;
                   list-style: none;
+                  margin: 30px auto 50px auto;
                  }
 
 .sns-btn li      {
@@ -281,7 +296,6 @@ h2               {
                    color: black;
                    text-align: center;
                    font-family: 'Cherry Bomb One' , 'HG丸ゴシックM-PRO' , sans-serif ;
-                   font-weight: bold;
                    font-size: 30px;
                    margin: 0 0 40px 0;
                    padding: 20px 0 0 0;
@@ -314,9 +328,32 @@ h2               {
 
 
 /* お問い合わせ */
+
+.panda            {
+                   position: relative;
+                  }
+
+.pd01 img        {
+                   position: absolute;
+                   top: 130px;
+                   right: 530px;
+                   width: 120px;
+                   height: 110px;
+                 }
+
+.pd02 img        {
+                   position: absolute;
+                   top: 130px;
+                   left: 530px;
+                   width: 110px;
+                   height: 110px;
+}
+
 .ms              {
+                  font-family: 'Yomogi' , 'HG丸ゴシックM-PRO' , sans-serif ;
+                  font-weight: bold;
                   text-align: center;
-                  margin-top: 80px;
+                  margin-top: 150px;
                  }
 
 
