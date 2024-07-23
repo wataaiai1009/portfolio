@@ -1,3 +1,18 @@
+// トップのパンダの動き
+const panda = document.querySelector('.panda').animate(
+	[
+		{ transform: 'translateY(0) scale(1)' },
+		{ transform: 'translateY(-70px)' },
+		{ transform: 'scale(1)' },
+		{ transform: 'translateY(0) scale(1)' }
+	],
+	{
+		 duration: 4000,
+		 iterations: Infinity
+	}
+);
+
+
 // 送信ボタン
 const btn = document.querySelector('.send');
 
