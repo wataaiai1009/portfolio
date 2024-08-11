@@ -21,6 +21,7 @@ header     {
 
 /* ナビゲーションのレイアウト */
 #logo img  {
+            margin-top: 20px;
             width: 60px;
             height: 60px;
            }
@@ -120,9 +121,10 @@ header     {
 
 .kaiwa img      {
                  position: absolute;
-                 left: 170px;
-                 width: 70%;
-                 height: 90%;
+                 top: 5px;
+                 left: 150px;
+                 width: 800px;
+                 height: 300px;
                  z-index: 0;
                 }
                 
@@ -130,11 +132,11 @@ header     {
                  margin: 0 0 0 0;
                  font-size: 30px;
                  letter-spacing: 23px;
-                 line-height: 100px;
-                 font-family: "Monomaniac One",'HG丸ゴシックM-PRO' , sans-serif ;
+                 line-height: 70px;
+                 font-family: "DotGothic16", "Monomaniac One",'HG丸ゴシックM-PRO' , sans-serif ;
                  position: absolute;
-                 top: 50px;
-                 left: 320px;
+                 top: 80px;
+                 left: 300px;
                 }
 
 .message span   {
@@ -145,8 +147,8 @@ header     {
                  width: 300px;
                  height: 150px;
                  position: absolute;
-                 top: 180px;
-                 right: 220px;
+                 top: 210px;
+                 right: 0px;
                 }
                 
 /* About */

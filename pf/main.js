@@ -1,5 +1,6 @@
 // トップのパンダの動き
 const panda = document.querySelector('.panda').animate(
+	
 	[
 		{ transform: 'translateY(0) scale(1)' },
 		{ transform: 'translateY(-70px)' },
@@ -11,7 +12,6 @@ const panda = document.querySelector('.panda').animate(
 		 iterations: Infinity
 	}
 );
-
 
 // 送信ボタン
 const btn = document.querySelector('.send');
