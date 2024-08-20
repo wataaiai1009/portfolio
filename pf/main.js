@@ -1,6 +1,8 @@
 // トップのパンダの動き
-addEventListener('mouseover', ()=>{
-document.querySelector('.panda').animate(
+const panda = document.querySelector('.panda');
+
+panda.addEventListener('mouseover', ()=>{
+panda.animate(
   [
 		{ transform: 'translateY(0) scale(1)' },
 		{ transform: 'translateY(-60px)' },
