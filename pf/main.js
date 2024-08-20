@@ -1,17 +1,16 @@
 // トップのパンダの動き
-const panda = document.querySelector('.panda').animate(
-	
-	[
+addEventListener('mouseover', ()=>{
+document.querySelector('.panda').animate(
+  [
 		{ transform: 'translateY(0) scale(1)' },
-		{ transform: 'translateY(-70px)' },
+		{ transform: 'translateY(-60px)' },
 		{ transform: 'scale(1)' },
 		{ transform: 'translateY(0) scale(1)' }
 	],
 	{
 		 duration: 4000,
-		 iterations: Infinity
 	}
-);
+)});
 
 // 送信ボタン
 const btn = document.querySelector('.send');
@@ -23,11 +22,11 @@ btn.addEventListener('click', ()=>{
 
 
 // キャッチコピーのイラストの動き
-const cp = document.querySelector('.people').animate(
+document.querySelector('.people').animate(
 	
 	[
 		{ transform: 'translateY(0) scale(1)' },
-		{ transform: 'translateY(-140px)' },
+		{ transform: 'translateY(-200px)' },
 		{ transform: 'scale(1)' },
 		{ transform: 'scale(1.1, 0.9)' },
 		{ transform: 'translateY(0) scale(1)' }
@@ -40,7 +39,7 @@ const cp = document.querySelector('.people').animate(
 
 
 // お問い合わせのイラストの動き
-const pan01 = document.querySelector('.pan0102').animate(
+document.querySelector('.pan0102').animate(
 	[
 		{
 			offset: 0.00,
