@@ -177,14 +177,13 @@ header {
 .pr img {
  position: absolute;
  top: 15px;
- width: 210px;
- height: 250px;
  border: 5px solid #fff;
  box-shadow: 0 0 8px #999;
 }
 
 ul {
-  margin-left: 230px;
+ margin-top: 50px;
+ margin-left: 230px;
  font-family: 'Yomogi' , 'HG丸ゴシックM-PRO' , sans-serif ;
  font-weight: bold;
  font-size: 18px;
@@ -203,16 +202,21 @@ li {
   height: 1000px;
 }
 
+.check {
+  position: absolute;
+  top: 120px;
+}
+
 .check02 {
   position: absolute;
-  top: 25px;
+  top: 55px;
   left: 380px;
   width: 200px;
 }
 
 .title {
  position: absolute;
- top: 50px;
+ top: 80px;
  left: 390px;
  font-family: 'Darumadrop One', 'HG丸ゴシックM-PRO' , sans-serif ;
  font-size: 60px;
@@ -224,7 +228,7 @@ li {
 
 .kamera {
   position: absolute;
-  top: 65px;
+  top: 90px;
   right: 330px;
   width: 150px;
   height: 160px;
@@ -234,7 +238,7 @@ li {
 #dog {
   display: flex;
   position: absolute;
-  top: 250px;
+  top: 280px;
   left: 210px;
 }
 
@@ -254,7 +258,7 @@ li {
 #fish {
   display: flex;
   position: absolute;
-  top: 530px;
+  top: 580px;
   right: 110px;
 }
 .fish img {
@@ -273,7 +277,7 @@ li {
 #flower {
   display: flex;
   position: absolute;
-  top: 830px;
+  top: 870px;
   left: 160px;
 }
 
@@ -299,7 +303,7 @@ li {
 
 .label02 img {
  position: absolute;
- top: 50px;
+ top: 65px;
  left: 360px;
 }     
           
@@ -453,8 +457,3 @@ h2 {
  left: 450px;
  font-size: 8px;
 }
-
-
-
-
-
