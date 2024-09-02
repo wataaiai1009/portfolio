@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+
+<html lang="Ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Aiko Wataname’ s Portfolio Website">
+  <title>Aiko Watanabe’ s Portfolio Website</title>
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=M+PLUS+1+Code:wght@100..700&family=Yomogi&display=swap" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Aoboshi+One&family=Cherry+Bomb+One&family=Dela+Gothic+One&family=Hachi+Maru+Pop&family=Kiwi+Maru&family=Monomaniac+One&family=Rampart+One&family=Rock+3D&family=RocknRoll+One&family=Shizuru&family=Zen+Kurenaido&family=Zen+Maru+Gothic&display=swap" rel="stylesheet">
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&family=DotGothic16&family=Monomaniac+One&display=swap" rel="stylesheet">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Darumadrop+One&family=DotGothic16&family=Kiwi+Maru&family=M+PLUS+1+Code:wght@100..700&family=Monomaniac+One&family=Potta+One&family=Rampart+One&family=Train+One&family=Yomogi&family=Yusei+Magic&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<!-- ヘッダー -->
+<header>
+  <!-- ロゴ -->
+  <a href="index.php" id="logo"><img src="img/logo.jpg" alt="トップページに戻る"></a>
+
+   <!-- ナビゲーション -->
+    <nav id="nav">
+      <ul>
+        <li><a href="index.php#about">ABOUT</a></li>
+        <li><a href="index.php#contact">CONTACT</a></li>
+      </ul>
+    </nav>
+</header>
+
+<main> 
+ <article>
+   <!-- メイン画像  -->
+    <section id="main"> 
+      <div class="panda">
+         <img src="img/panda.jpg" alt="パンダ">
+      </div> 
+      <div class="back-cl"></div>
+          <p class="aiko">Aiko Watanabe’s <br> Portfolio</p>
+      <div class="main">
+          <img src="img/main.jpg" alt="パソコンとわたし">
+      </div>
+    </section>
+
+   <!-- キャッチコピー -->
+    <section id="catch-copy">
+      <div class="kaiwa">
+        <img src="img/fukidasi.jpg" alt="会話を表すカッコ">
+      </div> 
+      <div class="people">
+        <img src="img/catch-copy.png" alt="catch-copy"> 
+      </div>
+      <div class="message">       
+        <p>この<span>出会い</span>を<span>大切</span>に、<br>その<span>想い</span>を<span>カタチ</span>に。</p>
+      </div>
+    </section>
+    
+   <!--  About  -->
+    <section id="about">
+      <div class="label01">
+        <img src="img/label01.jpg" alt="about">
+      </div> 
+      <div class="check">
+      <img src="img/チェック！.jpg" alt="チェック！">
+      </div>
+      
+      <div class="pr" >
+        <img src="img/photo.jpg" alt="顔写真">
+         <ul>
+           <li>2人のパワフルな女の子とトイプー1匹を育てています。</li>
+           <li>ガーデニングが趣味で、庭でたくさんのお花も育てています。</li>
+           <li>アクアリウムで魚たちにも癒されています。</li>
+           <br>
+           <li>HTML、CSS、JavaScript、PHP、WordPressのスキルを身につけ、ホームページ作成<br>
+               に励んでいます。</li>
+         </ul>
+      </div>
+    </section>
+   <!-- picture -->
+    <section id="picture">
+        <img src="img/チェック！02.jpg" alt="チェック！" class="check02">
+        <p class="title">picture</p>
+        <img src="img/kamera.jpg" alt="カメラ" class="kamera">
+      
+         <div id="dog">
+           <div class="dog">
+            <img src="img/dog.jpg" alt="愛犬">
+           </div>
+           <div class="dog-com">
+              <p>
+              トイプードルの男の子です。<br>
+              トイプードルだけど直毛です。頭の毛はシロ。お散歩が大好きです。<br>
+              性格はやんちゃでビビりです。<br> 
+              いろいろな技を特訓中です。
+              </p>
+           </div>
+         </div>
+       
+         <div id="fish">
+          <div class="fish-com">
+           <p>
+            いろんな種類の淡水魚が泳いでいます。<br>
+            水槽に近づくと寄ってきてくれます。<br>
+            水草もだいぶ成長しました。
+           </p>
+          </div>
+         <div class="fish">
+           <img src="img/fish01.jpg" alt="熱帯魚">
+           </div>
+        </div>
+
+        <div id="flower">
+          <div class="flower">
+             <img src="img/flower02.jpg" alt="花">
+            </div>
+            <div class="flower-com">
+              <p>
+                春にはサクラやバラ。夏にはサルスベリ。秋にはキンモクセイ。冬には大雪。<br>
+                四季折々の花が咲き、季節の移り変わりを感じています。<br>
+                冬囲いするのは大変です。
+              </p>
+            </div>
+         </div>
+    </section>
+        
+      
+<!-- Contact -->
+  <section id="contact">
+    <div class="label02">
+      <img src="img/label02.jpg" alt="contact">
+    </div>
+    <div class="back-ground">
+     <h2>おといあわせ</h2>
+      <form method="POST" action="confirm.php">
+        <div>
+          <div class="contact-heading">
+            <label class="contact-label">お名前</label>
+          </div>
+          <div>
+            <input type="text" name="name" placeholder="(例) 渡部藍子" class="contact-textbox" required>
+          </div>
+        </div>
+
+        <div>
+          <div class="contact-heading">
+             <label class="contact-label">フリガナ</label>
+          </div>
+          <div>
+             <input type="text" name="hurigana" placeholder="(例) ワタナベアイコ" class="contact-textbox">
+          </div>
+        </div>
+
+        <div>
+          <div class="contact-heading">
+            <label class="contact-label">メールアドレス</label>
+          </div>
+          <div>
+            <input type="email" name="email" placeholder="(例) @gmail.com" class="contact-textbox" required>
+          </div>
+        </div>
+
+        <div>
+          <div class="contact-heading">
+            <label class="contact-label">電話番号</label>
+          </div>
+          <div>
+            <input type="text" name="tel" placeholder="(例) 090-0000-0000" class="contact-textbox" required>
+          </div>
+        </div>
+     
+        <div>
+          <div class="contact-heading">
+            <label class="contact-label">お問い合わせ内容</label>
+          </div>
+          <div>
+            <textarea class="contact-textarea" placeholder="入力してください" name="message" required></textarea>
+          </div>
+        </div>
+
+        <div>
+          <div class="contact-heading">
+            <label class="contact-label">ご希望の連絡先</label>
+          </div>
+          <div>
+            <input class="radiobutton" type="radio" value="tel" name="contact" checked><label>お電話</label>
+            <input class="radiobutton" type="radio" value="mail" name="contact"><label>メール</label>
+            <input class="radiobutton" type="radio" value="both" name="contact"><label>どちらでも</label>
+          </div>
+        </div>
+
+        <div>
+          <div id="sendBtn">
+           <input type="submit" value="確認する" class="send">
+           <input type="reset" value="リセット" class="send">
+          </div>
+        </div>
+
+        </form>
+      </section>
+    </article>
+  </main>
+
+  <!-- フッター -->
+    <footer id="footer">
+      <ul class="sns-btn">
+        <li><a href="https://twitter.com/@AikoWatanabe00" target="_blank"><img src="img/logo-black.png" alt="twitter"></a></li>
+        <li><a href="https://www.instagram.com/aikowatanabe00/" target="_blank"><img src="img/Instagram_Glyph_Gradient.png" alt="Instagram"></a></li>
+      </ul>
+      <div class="pan0102">
+       <div class="pan01"><img src="img/panda01.jpg" alt="パンダメス"></div>
+       <div class="pan02"><img src="img/panda2.jpg" alt="パンダオス"></div>
+      </div>
+      <div class="ms"><p>お気軽にお問い合わせください。</p></div>
+   </footer>
+
+    <div id="copy">
+     <p>&copy; Aiko Watanabe. All rights reserved.</p>
+    </div>
+    
+    <script src="main.js"></script>
+</body>
+</html> 
