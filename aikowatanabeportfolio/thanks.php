@@ -10,7 +10,8 @@ mb_language("Japanese");
 mb_internal_encoding("UTF-8");
 
 //送信先アドレス
-$to = $_POST['email'];
+$to = "info@aiko-watanabe00.com";
+
 //メール件名
 $subject = "お問い合わせありがとうございます。";
 //メッセージ本文を視覚的に見やすく格納（ヒアドキュメント）
@@ -42,11 +43,14 @@ $message = <<< EOM
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 EOM;
 //送信元
-$headers = "From: wataai1009@gmail.com";
+$headers = "From: info@aiko-watanabe00.com";
+mb_send_mail ($to, $subject, $message, $headers);
 
+$to = $_POST["email"];
 //メール送信
 mb_send_mail ($to, $subject, $message, $headers); 
 ?>
+
 <!DOCTYPE html>
 <html>
 <head>
